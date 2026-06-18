@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Destinasi wisata terbaik di Aceh – pantai, gunung, danau, air terjun, dan lebih banyak lagi." />
+  <title>Destinasi Wisata – Wonderful Aceh</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link href="assets/css/style.css" rel="stylesheet" />
+  <link rel="icon" type="image/png" href="image/logo1.png">
+</head>
+<body>
+
+  <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+</div>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <div class="navbar-logo-img"><img src="image/logo1.png" alt="Logo" onerror="this.parentElement.innerHTML='<i class=&quot;bi bi-gem&quot;></i>';this.parentElement.style.background='linear-gradient(135deg,#1a6fc4,#0d4f9e)';" /></div>
+      <div class="navbar-brand-text">
+        <span class="navbar-brand-title">WONDERFUL ACEH</span>
+        <span class="navbar-brand-sub">Nanggroe Aceh Darussalam</span>
+      </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarMain">
+      <ul class="navbar-nav gap-1 me-2">
+        <li class="nav-item"><a class="nav-link" href="index.html">Beranda</a></li>
+        <li class="nav-item"><a class="nav-link active" href="destinasi.html">Destinasi</a></li>
+        <li class="nav-item"><a class="nav-link" href="budaya.html">Budaya</a></li>
+        <li class="nav-item"><a class="nav-link" href="landmark.html">Landmark</a></li>
+        <li class="nav-item"><a class="nav-link" href="kuliner.html">Kuliner</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+      </ul>
+      <div id="nav-auth-slot"></div>
+    </div>
+  </div>
+</nav>
+
+<!-- PAGE HEADER -->
+<div class="page-header">
+  <div class="container">
+    <div class="section-label" style="color:rgba(255,255,255,0.7)"><span>Eksplorasi</span></div>
+    <h1 class="page-header-title">Destinasi <em style="font-style:italic;color:#f0a500">Wisata</em> Aceh</h1>
+    <p class="page-header-sub">Temukan keindahan alam Aceh yang memukau — dari pantai kristal hingga hutan tropis yang misterius.</p>
+    <nav class="breadcrumb-custom" aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Beranda</a></li>
+        <li class="breadcrumb-item active">Destinasi</li>
+      </ol>
+    </nav>
+  </div>
+</div>
+
+<!-- DESTINASI GRID -->
+<section class="section-pad">
+  <div class="container">
+    <!-- Filter Tabs -->
+    <div class="d-flex flex-wrap gap-2 mb-5 reveal">
+  <button class="btn-card filter-btn active" data-filter="Semua" style="background:var(--primary);color:white;border-color:var(--primary);">Semua</button>
+  <button class="btn-card filter-btn" data-filter="Pantai">Pantai</button>
+  <button class="btn-card filter-btn" data-filter="Pegunungan">Pegunungan</button>
+  <button class="btn-card filter-btn" data-filter="Danau">Danau</button>
+  <button class="btn-card filter-btn" data-filter="Air Terjun">Air Terjun</button>
+  <button class="btn-card filter-btn" data-filter="Pulau">Pulau</button>
+</div>
+
+    <div class="row g-4">
+      <!-- Pantai Lampuuk -->
+      <div class="col-lg-4 col-md-6 reveal delay-1 dest-card" data-category="Pantai">
+        <div class="card-modern">
+          <div class="card-img-wrap">
+            <div class="card-img-placeholder bg-pantai">
+              <img src="image/pantai.jpeg" alt="Pantai">
+            </div>
+            <span class="card-badge">Pantai</span>
+          </div>
+          <div class="card-body">
+            <div style="display:flex;align-items:center;gap:0.5rem;margin-bottom:0.5rem;">
+              <i class="bi bi-geo-alt-fill" style="color:var(--primary);font-size:0.82rem;"></i>
+              <span style="font-size:0.78rem;color:var(--text-muted);">Aceh Besar</span>
+            </div>
+            <h5 class="card-title">Pantai Lampuuk</h5>
+            <p class="card-text">Hamparan pasir putih yang menawan di pesisir barat Aceh. Ideal untuk berenang, snorkeling, dan menikmati sunset yang memukau.</p>
+            <a href="https://atourin.com/destination/aceh/pantai-lampuuk" class="btn-card">Lihat Detail <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pulau Weh -->
+      <div class="col-lg-4 col-md-6 reveal delay-2 dest-card" data-category="Pulau">
+        <div class="card-modern">
+          <div class="card-img-wrap">
+            <div class="card-img-placeholder bg-sabang">
+              <img src="image/sabang.jpeg" alt="Sabang">
+            </div>
+            <span class="card-badge">Pulau</span>
+          </div>
+          <div class="card-body">
+            <div style="display:flex;align-items:center;gap:0.5rem;margin-bottom:0.5rem;">
+              <i class="bi bi-geo-alt-fill" style="color:var(--primary);font-size:0.82rem;"></i>
+              <span style="font-size:0.78rem;color:var(--text-muted);">Sabang</span>
+            </div>
+            <h5 class="card-title">Pulau Weh Sabang</h5>
+            <p class="card-text">Surga diving dan snorkeling di Titik Nol Indonesia. Keindahan bawah laut dengan terumbu karang dan fauna laut yang luar biasa.</p>
+            <a href="https://id.wikipedia.org/wiki/Pulau_Weh" class="btn-card">Lihat Detail <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Danau Laut Tawar -->
+      <div class="col-lg-4 col-md-6 reveal delay-3 dest-card" data-category="Danau">
+        <div class="card-modern">
+          <div class="card-img-wrap">
+            <div class="card-img-placeholder bg-danau">
+              <img src="image/danau.jpeg" alt="Danau">
+            </div>
+            <span class="card-badge">Danau</span>
+          </div>
+          <div class="card-body">
+            <div style="display:flex;align-items:center;gap:0.5rem;margin-bottom:0.5rem;">
+              <i class="bi bi-geo-alt-fill" style="color:var(--primary);font-size:0.82rem;"></i>
+              <span style="font-size:0.78rem;color:var(--text-muted);">Aceh Tengah, Gayo</span>
+            </div>
+            <h5 class="card-title">Danau Laut Tawar</h5>
+            <p class="card-text">Danau elok di dataran tinggi Gayo dikelilingi kabut pagi yang mistis. Tempat yang sempurna untuk camping dan menikmati alam yang tenang.</p>
+            <a href="https://id.wikipedia.org/wiki/Danau_Laut_Tawar" class="btn-card">Lihat Detail <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Air Terjun -->
+      <div class="col-lg-4 col-md-6 reveal delay-1 dest-card" data-category="Air Terjun">
+        <div class="card-modern">
+          <div class="card-img-wrap">
+            <div class="card-img-placeholder bg-air-terjun">
+              <img src="image/air-terjun.jpeg" alt="Air-Terjun">
+            </div>
+            <span class="card-badge">Air Terjun</span>
+          </div>
+          <div class="card-body">
+            <div style="display:flex;align-items:center;gap:0.5rem;margin-bottom:0.5rem;">
+              <i class="bi bi-geo-alt-fill" style="color:var(--primary);font-size:0.82rem;"></i>
+              <span style="font-size:0.78rem;color:var(--text-muted);">Aceh Jaya</span>
+            </div>
+            <h5 class="card-title">Air Terjun Suhom</h5>
+            <p class="card-text">Air terjun bertingkat eksotis di tengah hutan tropis Aceh yang rindang. Nikmati kesegaran alam dan keindahan alam Aceh yang tersembunyi.</p>
+            <a href="https://travel.kompas.com/read/2013/09/02/1453097/Indahnya.Air.Terjun.Suhom.di.Aceh" class="btn-card">Lihat Detail <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pantai Iboih -->
+      <div class="col-lg-4 col-md-6 reveal delay-2 dest-card" data-category="Pantai">
+        <div class="card-modern">
+          <div class="card-img-wrap">
+            <div class="card-img-placeholder bg-pantai">
+              <img src="image/hero3.jpeg" alt="Pantai">
+            </div>
+            <span class="card-badge">Pantai</span>
+          </div>
+          <div class="card-body">
+            <div style="display:flex;align-items:center;gap:0.5rem;margin-bottom:0.5rem;">
+              <i class="bi bi-geo-alt-fill" style="color:var(--primary);font-size:0.82rem;"></i>
+              <span style="font-size:0.78rem;color:var(--text-muted);">Sabang</span>
+            </div>
+            <h5 class="card-title">Pantai Iboih</h5>
+            <p class="card-text">Pantai berpasir putih dengan air jernih kehijauan di Pulau Weh. Spot favorit para penyelam untuk menjelajahi kehidupan bawah laut.</p>
+            <a href="https://id.wikipedia.org/wiki/Iboih,_Sukamakmue,_Sabang" class="btn-card">Lihat Detail <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Gunung Leuser -->
+      <div class="col-lg-4 col-md-6 reveal delay-3 dest-card" data-category="Pegunungan">
+        <div class="card-modern">
+          <div class="card-img-wrap">
+            <div class="card-img-placeholder bg-leuser">
+              <img src="image/leuser.jpeg" alt="Leuser">
+            </div>
+            <span class="card-badge">Pegunungan</span>
+          </div>
+          <div class="card-body">
+            <div style="display:flex;align-items:center;gap:0.5rem;margin-bottom:0.5rem;">
+              <i class="bi bi-geo-alt-fill" style="color:var(--primary);font-size:0.82rem;"></i>
+              <span style="font-size:0.78rem;color:var(--text-muted);">Aceh Selatan</span>
+            </div>
+            <h5 class="card-title">Gunung Leuser</h5>
+            <p class="card-text">Taman Nasional warisan UNESCO, rumah bagi orangutan Sumatera, harimau, badak, dan gajah. Petualangan alam liar yang tak terlupakan.</p>
+            <a href="https://id.wikipedia.org/wiki/Gunung_Leuser" class="btn-card">Lihat Detail <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CTA -->
+    <div class="text-center mt-5 reveal">
+      <div style="background:linear-gradient(135deg,var(--primary-dark),var(--primary));border-radius:var(--radius-lg);padding:3rem 2rem;color:white;">
+        <h3 style="font-family:var(--font-heading);font-size:2rem;margin-bottom:0.75rem;">Rencanakan Perjalanan Anda</h3>
+        <p style="opacity:0.85;max-width:450px;margin:0 auto 1.5rem;">Hubungi kami untuk mendapatkan panduan wisata terbaik ke Aceh.</p>
+        <a href="about.html" class="btn-hero-secondary">Hubungi Kami <i class="bi bi-arrow-right"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-3 col-md-6">
+        <a href="index.html" style="text-decoration:none;display:flex;align-items:center;gap:0.75rem;margin-bottom:1rem;">
+          <div style="width:42px;height:42px;border-radius:10px;overflow:hidden;flex-shrink:0;"><img src="image/logo1.png" alt="Logo" style="width:100%;height:100%;object-fit:cover;" onerror="this.parentElement.style.background='linear-gradient(135deg,#1a6fc4,#0d4f9e)';this.remove();" /></div>
+          <div><span class="footer-logo-title">WONDERFUL ACEH</span><span class="footer-logo-sub">Nanggroe Aceh Darussalam</span></div>
+        </a>
+        <p class="footer-about">Portal informasi wisata Nanggroe Aceh Darussalam untuk dunia.</p>
+        <div class="footer-social">
+          <a href="#" class="footer-social-btn"><i class="bi bi-facebook"></i></a>
+          <a href="https://instagram.com" target="_blank" class="footer-social-btn"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="footer-social-btn"><i class="bi bi-youtube"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-6">
+        <div class="footer-heading">Quick Link</div>
+        <ul class="footer-links">
+          <li><a href="index.html"><i class="bi bi-chevron-right"></i> Beranda</a></li>
+          <li><a href="destinasi.html"><i class="bi bi-chevron-right"></i> Destinasi</a></li>
+          <li><a href="budaya.html"><i class="bi bi-chevron-right"></i> Budaya</a></li>
+          <li><a href="landmark.html"><i class="bi bi-chevron-right"></i> Landmark</a></li>
+          <li><a href="kuliner.html"><i class="bi bi-chevron-right"></i> Kuliner</a></li>
+          <li><a href="about.html"><i class="bi bi-chevron-right"></i> About</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="footer-heading">Kontak</div>
+        <div class="footer-contact-item"><div class="footer-contact-icon"><i class="bi bi-geo-alt"></i></div><span>Jl. Teuku Nyak Arief No. 219 Banda Aceh</span></div>
+        <div class="footer-contact-item"><div class="footer-contact-icon"><i class="bi bi-telephone"></i></div><span>0822-6770-4360</span></div>
+        <div class="footer-contact-item"><div class="footer-contact-icon"><i class="bi bi-envelope"></i></div><span>info@wonderfulaceh.id</span></div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="footer-heading">Newsletter</div>
+        <p style="font-size:0.87rem;opacity:0.7;margin-bottom:1rem;">Dapatkan Informasi Terbaru dari Kami</p>
+        <form class="newsletter-form">
+          <div class="newsletter-input-wrap">
+            <input type="email" class="newsletter-input" placeholder="Masukkan Email Anda" required />
+            <button type="submit" class="newsletter-btn">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <p class="mb-0">© Wonderful Aceh — Designed by <strong style="color:rgba(255,255,255,0.75)">Ridhatul Jannati</strong>. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<button id="back-to-top" aria-label="Kembali ke atas"><i class="bi bi-chevron-up"></i></button>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
